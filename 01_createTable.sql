@@ -168,13 +168,14 @@ WHERE id_atendimento = 2;
 DELETE FROM servico
 WHERE id_servico = 4;
 
-SELECT * FROM atendimento
-
 ---------------2. Remover um atendimento------------------------
 
--- Remover um agendamento específico
-DELETE FROM atendimento
-WHERE id_atendimento = 1;
+DELETE FROM atendimento WHERE id_atendimento = 8;
+
+---------------3. Excluir um cliente----------------------------
+
+DELETE FROM cliente WHERE id_cliente = 10;
+
 
 
 
